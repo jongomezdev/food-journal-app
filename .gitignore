@@ -1,0 +1,10 @@
+node_modules/
+.webpack/
+out/
+*.db
+*.db-shm
+*.db-wal
+.DS_Store
+npm-debug.log
+dist/
+build/
