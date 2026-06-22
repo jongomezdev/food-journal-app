@@ -11,6 +11,9 @@
   },
   "author": "",
   "license": "ISC",
+  "engines": {
+    "node": "20.x || 22.x || 23.x || 24.x || 25.x"
+  },
   "devDependencies": {
     "@babel/core": "^7.29.0",
     "@babel/preset-react": "^7.28.5",
@@ -37,5 +40,12 @@
     "react-dom": "^19.2.6",
     "react-icons": "^5.6.0",
     "uuid": "^14.0.0"
+  },
+  "allowScripts": {
+    "better-sqlite3@12.9.0": true,
+    "electron@34.3.0": true,
+    "electron-winstaller@5.4.0": true,
+    "fsevents@2.3.3": true,
+    "lzma-native@8.0.6": true
   }
 }
